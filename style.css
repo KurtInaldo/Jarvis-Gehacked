@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: monospace;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkblue;
+    color: white;
+    height: 40px;
+}
+
+img {
+    height: 30px;
+}
+
+button {
+    border: none;
+    background-color: #57be8e;
+    border-radius: 6px;
+    padding: 10px;
+    text-overflow: ellipsis;
+    color: white;
+}
+
+.profile {
+    display: flex;
+    justify-content: end;
+    padding-left: 20px;
+}
+
+.profile img {
+    border-radius: 50%;
+}
+
+.feedback {
+    background-color: white;
+    color: lightgreen;
+    border-radius: 5px;
+}
+
+.main-content-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 20% 0 20%;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.right-content {
+    width: 200px;
+    padding: 0 20px 0 20px;
+}
+
+table {
+    border-collapse: collapse;
+    box-shadow: 2px 2px 8px gray;
+}
+
+th {
+    padding: 15px 0 15px 0;
+    font-weight: bold;
+    color: gray;
+}
+
+tr {
+    border-top: thin ridge lightgray;
+}
+
+td {
+    padding: 10px;
+}
+
+tr:first-child {
+    border-top: none;
+}
+
+.box {
+    margin: 10px;
+    box-shadow: 2px 2px 8px gray;
+    margin-left: 2px;
+}
+
+.navBtn {
+    display: flex;
+    align-items: center;
+    margin: 0 8px 0 8px;
+}
+
+.navBtn:nth-child(4) {
+    background-color: white;
+    color: #57be8e;
+    border-radius: 5px;
+    margin: 2px 0 2px 0;
+}
+
+.navBtn>img {
+    margin-right: 4px;
+}
+
+.credits {
+    display: flex;
+    align-items: center;
+    margin: 0 8px 0 8px;
+}
+
+.logo {
+    margin: 2px 0 0 5px;
+}
+
+.level-bar {
+    margin: 2px 20px 0 20px;
+    height: 30px;
+    background-color: #87dbe5;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.level-bar>span {
+    margin: 0 8px 0 8px;
+    padding: 0 30px 0 30px;
+}
+
+.progress {
+    width: 7px;
+    background-color: #2497a5;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.growth {
+    width: 170px;
+    height: 110px;
+}
